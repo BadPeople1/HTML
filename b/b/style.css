@@ -14,16 +14,16 @@
 }
 
 ul > li{
-    padding: 20px;
     width: 20%;
     background-color: aqua;
     border: 1px solid black;
-    text-align: center;
     list-style: none;
 }
 
 .flex li:nth-child(1){
+    background-color: orange;
     align-self: stretch;
+    order: 2;
 }
 
 .sli:nth-child(2){
@@ -39,5 +39,7 @@ ul > li{
 }
 
 .flex li:nth-child(5){
+    background-color: yellow;
     align-self: baseline;
+    order: 1;
 }
