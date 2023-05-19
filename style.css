@@ -1,0 +1,54 @@
+body{
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.content #A{
+    background-color: aquamarine;
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+}
+
+.content #B{
+    background-color: lightblue;
+    border: 1px solid black;
+    width: 50%;
+    height: 100px;
+    float: right;
+}
+
+.content #C{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 50%;
+    height: 100px;
+}
+
+.content #D{
+    position: absolute;
+    background-color: orange;
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 20px;
+    background-color: azure;
+    border: 1px solid black;
+    width: 5%;
+    height: 50px;
+    text-align: center;
+}
+
+#footer a{
+    text-decoration: none;
+}
+
+#footer a:hover{
+    text-decoration:underline;
+}
