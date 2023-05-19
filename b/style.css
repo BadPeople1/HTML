@@ -17,9 +17,14 @@
     align-items: center;
     align-items: flex-end;
     align-items: baseline; */
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap;
     flex-wrap: wrap;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse; */
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-between;
 }
 
 ul > li{
