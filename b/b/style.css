@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex{
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    /*flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+}
+
+ul > li{
+    padding: 20px;
+    width: 20%;
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    list-style: none;
+}
+
+.flex li:nth-child(1){
+    align-self: stretch;
+}
+
+.sli:nth-child(2){
+    align-self: flex-start;
+}
+
+.flex li:nth-child(3){
+    align-self: flex-end;
+}
+
+.flex li:nth-child(4){
+    align-self: center;
+}
+
+.flex li:nth-child(5){
+    align-self: baseline;
+}
