@@ -1,11 +1,20 @@
-li[class ^= "START"]{
+ul > li[class ^= "START"]{
     border: 1px solid red !important;
 }
 
-li[class $= "START"]{
+ul > li[class $= "START"]{
     border: 1px solid green !important ;
 }
 
-li[class *= "START"]{
+ul > li[class *= "START"]{
     border: 1px solid blue;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a[href $= ".pdf"]{
+    padding-left: 20px;
+    background: url(./img/van.png) no-repeat;
 }
