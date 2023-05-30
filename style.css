@@ -1,3 +1,11 @@
+dl.Target > dd {
+    display: none;
+}
+
+dl.Target dd:target {
+    display: block;
+}
+
 ul > li[class ^= "START"] {
     border: 1px solid red !important;
 }
