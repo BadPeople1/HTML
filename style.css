@@ -1,0 +1,11 @@
+li[class ^= "START"]{
+    border: 1px solid red !important;
+}
+
+li[class $= "START"]{
+    border: 1px solid green !important ;
+}
+
+li[class *= "START"]{
+    border: 1px solid blue;
+}
