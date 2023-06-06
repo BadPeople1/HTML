@@ -71,3 +71,16 @@ img#dog2 {
 img#dog3 {
     filter: blur(5px)
 }
+
+div#main {
+    width: auto;
+    height: 300px;
+    background-color: #fff;
+}
+
+div#main > img#dog4 {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50px, -50px);
+}
