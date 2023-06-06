@@ -43,3 +43,19 @@ li.ts06 {
     0 0 13px #f03,
     0 0 13px #f03;
 }
+
+li.ts07 {
+    -webkit-text-stroke: 1px #fff;
+}
+
+li.grad01 {
+    background: linear-gradient(to bottom, #f33, #fff);
+}
+
+li.grad02 {
+    background: linear-gradient(to right, #f36 0%, #fff 50%, #f63 100%);
+}
+
+li.grad03 {
+    background: linear-gradient(to right bottom, #f36 0%, #fff 50%, #f63 100%);
+}
